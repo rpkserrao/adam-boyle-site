@@ -34,6 +34,10 @@ nav {
   padding: 0 32px;
 }
 
+/* .row {
+  max-height: 862px;
+} */
+
 .nav__logo {
   font-size: 32px;
 }
@@ -47,7 +51,7 @@ nav {
 }
 
 #about {
-  height: 400px;
+  height: 100vh;
 }
 
 .section__title {
@@ -57,26 +61,30 @@ nav {
 
 .adam__b {
   justify-self: right;
-  padding: 320px 16px;
+  padding: 640px 16px;
   font-size: 40px;
 }
 
 #contact {
   position: relative;
+  max-height: 112px;
   width: 100vw;
-  margin: 0 auto;
+  margin: auto 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 160px 16px;
+  padding: 112px 0;
+  /* padding-bottom: 1; */
 }
 
 .contact__wrapper {
   background-color: #242424;
+  max-height: 112px;
   width: 100vw;
   position: absolute;
   display: flex;
   flex-direction: row;
+  
 }
 
 .phone__number {
@@ -87,6 +95,8 @@ nav {
   margin: auto auto;
 }
 
-footer {
+.footer__row {
+  padding-top: 112px;
   background-color: #242424;
+  height: 100px;
 }
