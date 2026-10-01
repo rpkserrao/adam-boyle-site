@@ -23,6 +23,10 @@ a:hover {
   color: red;
 }
 
+/* body {
+  max-height: 100vh;
+} */
+
 nav {
   background-color: #242424;
   height: 100px;
@@ -33,10 +37,6 @@ nav {
   align-items: center;
   padding: 0 32px;
 }
-
-/* .row {
-  max-height: 862px;
-} */
 
 .nav__logo {
   font-size: 32px;
@@ -51,7 +51,13 @@ nav {
 }
 
 #about {
+  max-height: 1045px;
   height: 100vh;
+}
+
+.about__row {
+  max-height: 100vh;
+  height: 100%;
 }
 
 .section__title {
@@ -61,19 +67,20 @@ nav {
 
 .adam__b {
   justify-self: right;
-  padding: 640px 16px;
+  padding: 0px 16px;
+  padding-top: 72vh;
   font-size: 40px;
 }
 
 #contact {
-  position: relative;
-  max-height: 112px;
+  /* position: relative; */
+  /* max-height: 112px; */
   width: 100vw;
-  margin: auto 0;
-  display: flex;
-  justify-content: space-between;
+  /* margin: auto 0; */
+  /* display: flex; */
+  /* justify-content: space-between; */
   align-items: center;
-  padding: 112px 0;
+  padding-bottom: 112px;
   /* padding-bottom: 1; */
 }
 
@@ -84,7 +91,6 @@ nav {
   position: absolute;
   display: flex;
   flex-direction: row;
-  
 }
 
 .phone__number {
@@ -96,7 +102,9 @@ nav {
 }
 
 .footer__row {
-  padding-top: 112px;
+  /* z-index: 5; */
+  display: flex;
+  /* padding-top: 112px; */
   background-color: #242424;
   height: 100px;
 }
